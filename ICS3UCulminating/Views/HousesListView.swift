@@ -22,11 +22,8 @@ struct HousesListView: View {
     
     // The "body" property defines the user interface for this app
     var body: some View {
-        NavigationStack {
-            List(viewModel.housesList) { currentHouse in
-                HouseItemView(providedHouse: currentHouse)
-            }
-            .navigationTitle("LCS Houses")
+        List(viewModel.housesList) { currentHouse in
+            HouseItemView(providedHouse: currentHouse)
         }
     }
 }
