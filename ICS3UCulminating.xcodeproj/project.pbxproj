@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2711BFA2FD1DC72008C8942 /* DotsAndBoxesGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2711BF92FD1DC72008C8942 /* DotsAndBoxesGame.swift */; };
+		F2711BFC2FD1DC7C008C8942 /* DotsAndBoxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2711BFB2FD1DC7C008C8942 /* DotsAndBoxesView.swift */; };
 		F2769B1F2FCE04C5006083D9 /* ICS3UCulminatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2769B1E2FCE04C5006083D9 /* ICS3UCulminatingApp.swift */; };
 		F2769B212FCE04C5006083D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2769B202FCE04C5006083D9 /* Assets.xcassets */; };
 		F2769B242FCE04C5006083D9 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2769B232FCE04C5006083D9 /* House.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2711BF92FD1DC72008C8942 /* DotsAndBoxesGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsAndBoxesGame.swift; sourceTree = "<group>"; };
+		F2711BFB2FD1DC7C008C8942 /* DotsAndBoxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsAndBoxesView.swift; sourceTree = "<group>"; };
 		F2769B1B2FCE04C5006083D9 /* ICS3UCulminating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICS3UCulminating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2769B1E2FCE04C5006083D9 /* ICS3UCulminatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICS3UCulminatingApp.swift; sourceTree = "<group>"; };
 		F2769B202FCE04C5006083D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				F2769B232FCE04C5006083D9 /* House.swift */,
+				F2711BF92FD1DC72008C8942 /* DotsAndBoxesGame.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				F2769B292FCE04C5006083D9 /* HousesListView.swift */,
 				F2769B2B2FCE04C5006083D9 /* HouseItemView.swift */,
+				F2711BFB2FD1DC7C008C8942 /* DotsAndBoxesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,9 +173,11 @@
 			files = (
 				F2769B2C2FCE04C5006083D9 /* HouseItemView.swift in Sources */,
 				F2769B242FCE04C5006083D9 /* House.swift in Sources */,
+				F2711BFC2FD1DC7C008C8942 /* DotsAndBoxesView.swift in Sources */,
 				F2769B2A2FCE04C5006083D9 /* HousesListView.swift in Sources */,
 				F2769B272FCE04C5006083D9 /* HouseListViewModel.swift in Sources */,
 				F2769B1F2FCE04C5006083D9 /* ICS3UCulminatingApp.swift in Sources */,
+				F2711BFA2FD1DC72008C8942 /* DotsAndBoxesGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

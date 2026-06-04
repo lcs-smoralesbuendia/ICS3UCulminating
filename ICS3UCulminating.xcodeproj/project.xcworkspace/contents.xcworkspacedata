@@ -4,4 +4,10 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:DotsAndBoxes.py">
+   </FileRef>
+   <FileRef
+      location = "group:Untitled.swift">
+   </FileRef>
 </Workspace>
